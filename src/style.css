@@ -1,0 +1,12 @@
+@import 'missing.css/dist/missing.css';
+
+#main {
+    overflow: auto;
+    display: flex;
+    justify-content: center;
+}
+
+#main__canvas {
+    display: block;
+    outline: 2px dashed var(--accent);
+}

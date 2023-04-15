@@ -1,0 +1,26 @@
+{
+    "name": "kontra-move-tile",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "tsc && vite build --base=./",
+        "preview": "vite preview"
+    },
+    "devDependencies": {
+        "typescript": "^4.9.3",
+        "vite": "^4.2.0"
+    },
+    "dependencies": {
+        "kontra": "^9.0.0",
+        "missing.css": "^1.0.12",
+        "prettier": "^2.8.7"
+    },
+    "prettier": {
+        "tabWidth": 4,
+        "semi": true,
+        "singleQuote": true,
+        "printWidth": 120
+    }
+}
